@@ -1,0 +1,22 @@
+{
+  "name": "fp-light",
+  "version": "1.0.0",
+  "description": "Functional utilities that are light",
+  "main": "src/index.js",
+  "devDependencies": {
+    "jest": "24.9.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuaalpuerto/fp-light.git"
+  },
+  "author": "Joshua C Alpuerto <joshuacalpuerto@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshuaalpuerto/fp-light/issues"
+  },
+  "homepage": "https://github.com/joshuaalpuerto/fp-light#readme"
+}
