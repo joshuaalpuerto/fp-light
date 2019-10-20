@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Functional utilities that are light",
   "main": "src/index.js",
+  "type": "module",
   "devDependencies": {
+    "@babel/preset-env": "7.6.3",
+    "babel-jest": "24.9.0",
     "jest": "24.9.0"
   },
   "scripts": {
