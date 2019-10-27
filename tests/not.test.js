@@ -1,6 +1,13 @@
 import not from '../src/not'
 
-test('negate truthy values', () => {
-  const falsy = not(true)
-  expect(falsy).toBeFalsy()
-});
+describe('negate values', () => {
+  test('negate true value', () => {
+    const falsy = not(true)
+    expect(falsy).toBeFalsy()
+  });
+
+  test('negate false value', () => {
+    const truthy = not(false)
+    expect(truthy).toBeTruthy()
+  });
+})
