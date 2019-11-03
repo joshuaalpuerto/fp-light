@@ -1,6 +1,9 @@
 # FP-light
 Functional utilities that I usually use in [ramda](https://ramdajs.com/) or [lodash](https://github.com/lodash/lodash/wiki/FP-Guide) that I write myself for learning :blush:
 
+![](https://github.com/joshuaalpuerto/fp-light/workflows/Node%20CI/badge.svg)
+[![Coverage Status](https://coveralls.io/repos/github/joshuaalpuerto/fp-light/badge.svg?branch=master)](https://coveralls.io/github/joshuaalpuerto/fp-light?branch=master)
+
 ## Utilites
 - `curry`
 - `ifElse`
