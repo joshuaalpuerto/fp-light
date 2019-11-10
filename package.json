@@ -22,7 +22,5 @@
     "url": "https://github.com/joshuaalpuerto/fp-light/issues"
   },
   "homepage": "https://github.com/joshuaalpuerto/fp-light#readme",
-  "dependencies": {
-    "esm": "3.2.25"
-  }
+  "dependencies": {}
 }
