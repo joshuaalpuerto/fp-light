@@ -4,6 +4,7 @@
   "description": "Functional utilities that are light",
   "main": "src/index.js",
   "type": "module",
+  "main": "src/index.js",
   "devDependencies": {
     "@babel/preset-env": "7.6.3",
     "babel-jest": "24.9.0",
@@ -22,5 +23,4 @@
     "url": "https://github.com/joshuaalpuerto/fp-light/issues"
   },
   "homepage": "https://github.com/joshuaalpuerto/fp-light#readme",
-  "dependencies": {}
 }
