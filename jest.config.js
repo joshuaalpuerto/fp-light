@@ -27,6 +27,7 @@ module.exports = {
     "!**/vendor/**",
     "!**/tests/**",
     "!**/coverage/**",
+    "!**/dist/**",
     "!jest.config.js",
   ],
 
