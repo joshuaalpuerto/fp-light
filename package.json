@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/joshuaalpuerto/fp-light/issues"
   },
-  "homepage": "https://github.com/joshuaalpuerto/fp-light#readme"
+  "homepage": "https://github.com/joshuaalpuerto/fp-light#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@joshuaalpuerto"
+  }
 }
