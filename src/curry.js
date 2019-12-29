@@ -9,10 +9,9 @@
  *   - `g(1, 2, 3)`
  *   - `g()()(1, 2, 3)`
  */
-function curry (fns, received = []) {
+function curry (fns) {
   return function curried(...args) {
-    received = [...received, ...args]
-    return received.length >= fns.length ? fns.apply(this, received)  : curry.apply(this, [fns, received]);
+    return args.length >= fns.length ? fns.apply(this, args)  : curried.bind(null, ...args);
   }
 }
 
