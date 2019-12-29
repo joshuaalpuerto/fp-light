@@ -1,3 +1,4 @@
+import curry from './curry'
 /**
  * Returns a single item by iterating through the list, successively calling
  * the iterator function and passing it an accumulator value and the current
@@ -12,4 +13,4 @@
 // TODO: need to put this inside the curry function but we are running issue with closure.
 const reduce = (fn, acc, list) => list.reduce(fn, acc)
 
-export default reduce
+export default curry(reduce)
