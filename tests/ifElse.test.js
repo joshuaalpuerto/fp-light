@@ -41,6 +41,21 @@ describe('triggers correct conditional statement', () => {
       const value = isGreaterThan5(5)
       expect(value).toEqual(4)
     });
+
+    test('ifElse applying arguments immediately', () =>{
+      const add1 = (a)  =>  a + 1
+      const minus1 = (a)  =>  a - 1
+      const predicate = (val) => val > 5
+      const value = 7
+      const isGreaterThan5 = ifElse(
+        predicate,
+        add1,
+        minus1,
+        value
+      )
+  
+      expect(isGreaterThan5).toEqual(8)
+    }) 
   }) 
- 
+
 })
