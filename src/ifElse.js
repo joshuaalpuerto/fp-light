@@ -1,3 +1,4 @@
+import curry from './curry'
 /**
  * Returns function that if predicate is evaluate correctly 
  * will evaluate the true statement else evaluate the false.
@@ -6,8 +7,8 @@
  * @param {*} truthy 
  * @param {*} falsy 
  */
-const ifElse = (predicate, truthy, falsy) => (...args) =>
-  predicate(...args) ? truthy(...args) : falsy(...args)
+const ifElse = (predicate, truthy, falsy, args) =>
+  predicate(args) ? truthy(args) : falsy(args)
 
 
-export default ifElse
+export default curry(ifElse)
