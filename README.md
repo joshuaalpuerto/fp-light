@@ -7,11 +7,16 @@ Functional utilities that I usually use in [ramda](https://ramdajs.com/) or [lod
 
 ## Utilites
 
+- `and` - pending
+- `both` - pending
 - `complement`
+- `compose` - pending
 - `curry`
 - `identity`
 - `ifElse`
 - `not`
+- `or` - pending
+- `pipe`- pending
 - `reduceRight`
 - `reduce`
 - `when`
