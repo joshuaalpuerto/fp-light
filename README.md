@@ -7,7 +7,7 @@ Functional utilities that I usually use in [ramda](https://ramdajs.com/) or [lod
 
 ## Utilites
 
-- `and` - pending
+- `and`
 - `both` - pending
 - `complement`
 - `compose` - pending
