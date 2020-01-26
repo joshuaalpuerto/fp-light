@@ -15,7 +15,7 @@ Functional utilities that I usually use in [ramda](https://ramdajs.com/) or [lod
 - `identity`
 - `ifElse`
 - `not`
-- `or` - pending
+- `or`
 - `pipe`- pending
 - `reduceRight`
 - `reduce`
